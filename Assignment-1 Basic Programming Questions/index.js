@@ -13,10 +13,6 @@ let data = prompt("Please enter any Alphabets...");
 
 if(data >= 'a' && data <= 'z'  || data >= 'A' && data <= 'Z')
 {
-   let data = prompt("Please enter any Alphabets...");
-
-if(data >= 'a' && data <= 'z'  || data >= 'A' && data <= 'Z')
-{
 	switch(data)
 	{
 		case 'a':
@@ -53,11 +49,6 @@ if(data >= 'a' && data <= 'z'  || data >= 'A' && data <= 'Z')
 			console.log("Consonant");
 			break;
 	}
-}
-else{
-console.log("you have enter a Non- Alphabet");
-}
-  
 }
 else{
 console.log("you have enter a Non- Alphabet");
