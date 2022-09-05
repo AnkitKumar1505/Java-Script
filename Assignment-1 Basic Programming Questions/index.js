@@ -13,12 +13,51 @@ let data = prompt("Please enter any Alphabets...");
 
 if(data >= 'a' && data <= 'z'  || data >= 'A' && data <= 'Z')
 {
-    if(data == 'a' || data == 'A'|| data == 'e' || data == 'E' || data == 'i' || data == 'I' || data == 'o' || data == 'O' || data == 'u' || data == 'U'){
-        console.log(data,"= It is an Vowel");
-    }
-    else{
-        console.log(data,"= It is a Consonant");
-    }  
+   let data = prompt("Please enter any Alphabets...");
+
+if(data >= 'a' && data <= 'z'  || data >= 'A' && data <= 'Z')
+{
+	switch(data)
+	{
+		case 'a':
+			console.log("Vowel");
+			break;
+		case 'e':
+			console.log("Vowel");
+			break;
+		case 'i':
+			console.log("Vowel");
+			break;
+		case 'o':
+			console.log("Vowel");
+			break;
+		case 'u':
+			console.log("Vowel");
+			break;
+		case 'A':
+			console.log("Vowel");
+			break;
+		case 'E':
+			console.log("Vowel");
+			break;
+		case 'I':
+			console.log("Vowel");
+			break;
+		case 'O':
+			console.log("Vowel");
+			break;
+		case 'U':
+			console.log("Vowel");
+			break;
+		default:
+			console.log("Consonant");
+			break;
+	}
+}
+else{
+console.log("you have enter a Non- Alphabet");
+}
+  
 }
 else{
 console.log("you have enter a Non- Alphabet");
