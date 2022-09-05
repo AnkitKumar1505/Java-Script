@@ -9,11 +9,11 @@ console.log(result);
 
 // Question 2:- Ans
 
-let data = prompt("Please enter any Alphabets...");
+let enteredAlphabet = prompt("Please enteredAlphabet...");
 
-if(data >= 'a' && data <= 'z'  || data >= 'A' && data <= 'Z')
+if(enteredAlphabet >= 'a' && enteredAlphabet <= 'z'  || enteredAlphabet >= 'A' && enteredAlphabet <= 'Z')
 {
-	switch(data)
+	switch(enteredAlphabet)
 	{
 		case 'a':
 			console.log("Vowel");
@@ -106,17 +106,20 @@ var Total_bill = 0;
 
 if(units > 0 && units <= 50){
     bill = bill + (units * 0.50);
+	Total_bill = Total_bill + bill;
 }
 else if( units > 50 && units <= 150){
     bill = bill + (50 * 0.50)  + ((units - 50) * 0.75);
+	Total_bill = Total_bill + bill;
 }
 else if( units > 150 && units <= 250){
     bill = bill + (50 * 0.50)  + (100 * 0.75) + ((units - 150) * 1.2);
+	Total_bill = Total_bill + bill;
 }
 else if( units > 250){
     bill = bill + (50 * 0.50)  + (100 * 0.75) +  (100 * 1.2) + ((units - 250) * 1.5);
-}
+	Total_bill = Total_bill + bill + (bill * 0.20);
 
-Total_bill = Total_bill + bill + (bill * 0.20);
+}
 
 console.log("Total Bill = " , Total_bill);
