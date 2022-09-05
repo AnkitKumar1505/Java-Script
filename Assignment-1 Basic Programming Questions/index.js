@@ -1,4 +1,5 @@
 // Question 1:- Ans
+console.log("Answer 1 -----------------------------------");
 
 var str1 = 'Today is';
 var str2 = '      a beautiful day     ';
@@ -8,6 +9,7 @@ var result = str1.trim() + " " + str2.trim() + " " + str3.trim();
 console.log(result);
 
 // Question 2:- Ans
+console.log("Answer 2 -----------------------------------");
 
 let enteredAlphabet = prompt("Please enteredAlphabet...");
 
@@ -55,6 +57,7 @@ console.log("you have enter a Non- Alphabet");
 }
 
 // Question 3:-Ans
+console.log("Answer 3 -----------------------------------");
 
 var num1 = parseInt(prompt("Enter the first value"));
 var operator = prompt("Enter the operation to perform [+, -, *, /]");
@@ -80,6 +83,7 @@ switch(operator)
 }
 
 // Question 4:-Ans
+console.log("Answer 4 -----------------------------------");
 
 var A = parseInt(prompt("Enter value for side A"));
 var B = parseInt(prompt("Enter value for side B"));
@@ -99,6 +103,7 @@ else
 }
 
 // Question 5:-Ans
+console.log("Answer 5 -----------------------------------");
 
 var units = parseFloat(prompt("Please Enter the total number of electricity units..."));
 var bill = 0;
